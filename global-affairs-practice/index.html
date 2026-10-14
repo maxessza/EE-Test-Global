@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="แบบฝึก Global Affairs และ ASEAN Studies สุ่ม 80 ข้อจากคลัง 320 ข้อ">
-<title>Global Affairs | Exam Practice</title><link rel="stylesheet" href="styles.css">
-<script defer src="questions.js"></script><script defer src="app.js"></script></head>
+<title>Global Affairs | Exam Practice</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="ux.css">
+<script defer src="questions.js"></script><script defer src="explanations-th.js"></script><script defer src="app.js"></script></head>
 <body>
 <header class="topbar"><a class="brand" href="#home" aria-label="หน้าหลัก"><span class="brand-mark">GA</span><span>GLOBAL AFFAIRS<span class="brand-small">EXAM PRACTICE</span></span></a><span class="top-note">ฝึกได้ในเครื่อง · ไม่ส่งข้อมูลออก</span></header>
 <main>
@@ -19,6 +19,10 @@
 <aside class="navigator-panel"><div class="navigator-title">ไปยังข้อ</div><div id="question-grid" class="question-grid"></div><div class="legend"><span><i class="legend-current"></i>ข้อปัจจุบัน</span><span><i class="legend-answered"></i>ตอบแล้ว</span></div><button id="submit-button" class="button button-submit">ส่งคำตอบและดูคะแนน</button></aside></div>
 </section>
 <section id="result-screen" class="screen result-screen hidden" aria-live="polite">
-<p class="eyebrow">ผลการทำข้อสอบ</p><h1>สรุปคะแนนรอบนี้</h1><div class="result-card"><div id="score-ring" class="score-ring"><div><strong id="score-value">0</strong><span>/ 80</span></div></div><div class="result-copy"><h2 id="result-message"></h2><p id="result-detail"></p><div class="result-stats"><span><strong id="correct-count">0</strong> ถูก</span><span><strong id="wrong-count">0</strong> ผิดหรือเว้น</span><span><strong id="percent-count">0%</strong> คะแนน</span></div></div></div><div class="result-actions"><button id="new-round-button" class="button button-primary">สุ่มทำรอบใหม่</button><button id="review-toggle" class="button button-outline">ดูข้อที่ผิด</button></div><div id="review-list" class="review-list hidden"></div>
+<p class="eyebrow">ผลการทำข้อสอบ</p><h1>สรุปคะแนนรอบนี้</h1><div class="result-card"><div id="score-ring" class="score-ring"><div><strong id="score-value">0</strong><span>/ 80</span></div></div><div class="result-copy"><h2 id="result-message"></h2><p id="result-detail"></p><div class="result-stats"><span><strong id="correct-count">0</strong> ถูก</span><span><strong id="wrong-count">0</strong> ผิดหรือเว้น</span><span><strong id="percent-count">0%</strong> คะแนน</span></div></div></div>
+<div class="result-actions"><button id="new-round-button" class="button button-primary">สุ่มทำรอบใหม่</button></div>
+<section class="review-section" aria-labelledby="review-title"><div class="review-heading"><div><p class="eyebrow">ทบทวนคำตอบ</p><h2 id="review-title">เฉลยข้อสอบ</h2><p id="review-summary" class="review-summary">แสดงข้อที่ตอบผิดก่อน</p></div><span class="review-hint">เลือกดูข้อผิดหรือข้อถูกได้</span></div>
+<div id="review-filters" class="review-filters" role="group" aria-label="เลือกประเภทข้อที่ต้องการทบทวน"><button type="button" class="review-filter active" data-review-filter="wrong" aria-pressed="true">ข้อผิด <strong id="wrong-filter-count">0</strong></button><button type="button" class="review-filter" data-review-filter="correct" aria-pressed="false">ข้อถูก <strong id="correct-filter-count">0</strong></button><button type="button" class="review-filter" data-review-filter="all" aria-pressed="false">ทั้งหมด <strong id="all-filter-count">80</strong></button></div>
+<div id="review-list" class="review-list" aria-live="polite"></div></section>
 </section>
 </main><footer><span>GLOBAL AFFAIRS STUDY DESK</span><span>320 ข้อในคลัง · สุ่ม 80 ข้อต่อรอบ</span></footer></body></html>
