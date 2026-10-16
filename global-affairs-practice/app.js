@@ -33,6 +33,53 @@
     show(1);
   }
 
+  function makeImageBlock(question) {
+    if (!question.imageUrl) return null;
+    const figure = document.createElement('figure');
+    figure.className = 'person-photo';
+
+    const image = document.createElement('img');
+    image.src = question.imageUrl;
+    image.alt = question.imageAlt || 'ภาพบุคคลในโจทย์';
+    image.loading = 'lazy';
+    image.referrerPolicy = 'no-referrer';
+    image.addEventListener('error', () => {
+      image.hidden = true;
+      const fallback = document.createElement('div');
+      fallback.className = 'image-fallback';
+      fallback.textContent = 'โหลดภาพไม่สำเร็จ · เปิดแหล่งที่มาด้านล่างเพื่อดูภาพ';
+      figure.prepend(fallback);
+    }, { once: true });
+
+    const caption = document.createElement('figcaption');
+    const credit = document.createElement('span');
+    credit.textContent = question.imageCredit || 'เครดิตภาพ';
+    caption.append(credit);
+    if (question.imageSourceUrl) {
+      const link = document.createElement('a');
+      link.href = question.imageSourceUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = 'ดูแหล่งที่มาของภาพ';
+      caption.append(link);
+    }
+    figure.append(image, caption);
+    return figure;
+  }
+
+  function makeFactSource(question) {
+    const target = $('question-fact-source');
+    target.replaceChildren();
+    target.classList.toggle('hidden', !question.factSourceUrl);
+    if (!question.factSourceUrl) return;
+    const link = document.createElement('a');
+    link.href = question.factSourceUrl;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = `ตรวจตำแหน่ง/เหตุการณ์จาก ${question.factSourceName || 'แหล่งข้อมูล'}`;
+    target.append(link);
+  }
+
   function renderQuestion() {
     const question = round[cursor];
     $('progress-label').textContent = `ข้อ ${cursor + 1} จาก ${TOTAL}`;
@@ -41,6 +88,13 @@
     $('question-source').textContent = question.source;
     $('question-number').textContent = `QUESTION ${String(cursor + 1).padStart(2, '0')}`;
     $('question-text').textContent = question.question;
+
+    const imageArea = $('question-image');
+    imageArea.replaceChildren();
+    const imageBlock = makeImageBlock(question);
+    imageArea.classList.toggle('hidden', !imageBlock);
+    if (imageBlock) imageArea.append(imageBlock);
+    makeFactSource(question);
 
     const list = $('options-list');
     list.replaceChildren();
@@ -190,6 +244,21 @@
       const title = document.createElement('h3');
       title.textContent = question.question;
       card.append(title);
+
+      const imageBlock = makeImageBlock(question);
+      if (imageBlock) card.append(imageBlock);
+
+      if (question.factSourceUrl) {
+        const factSource = document.createElement('p');
+        factSource.className = 'review-fact-source';
+        const factLink = document.createElement('a');
+        factLink.href = question.factSourceUrl;
+        factLink.target = '_blank';
+        factLink.rel = 'noopener noreferrer';
+        factLink.textContent = `ตรวจข้อมูลจาก ${question.factSourceName || 'แหล่งข้อมูล'}`;
+        factSource.append(factLink);
+        card.append(factSource);
+      }
 
       if (isCorrect) {
         const answer = `${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer]}`;

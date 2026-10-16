@@ -1,0 +1,267 @@
+window.QUESTION_BANK.push(
+  {
+    id: 'people-001',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['ดร. เกา คิม ฮวน', 'อันโตนิโอ กูเตร์เรส', 'สีหศักดิ์ พวงเกตุแก้ว', 'วิเวียน บาลากฤษณัน'],
+    answer: 0,
+    explanationTh: 'ดร. เกา คิม ฮวนเป็นชาวกัมพูชาและเป็นเลขาธิการอาเซียนคนที่ 15 เริ่มปฏิบัติหน้าที่ในเดือนมกราคม 2023',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://theaseanmagazine.asean.org/files/media/2025/10/issue46-06-1.jpg',
+    imageAlt: 'ภาพชายสวมสูทยืนหน้าสัญลักษณ์และธงอาเซียน',
+    imageCredit: 'ภาพ: The ASEAN Magazine',
+    imageSourceUrl: 'https://theaseanmagazine.asean.org/article/secretary-general-of-asean-dr-kao-kim-hourn/',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/what-we-do/secretary-general-of-asean/'
+  },
+  {
+    id: 'people-002',
+    question: 'ปัจจุบันบุคคลในภาพดำรงตำแหน่งใดในอาเซียน?',
+    options: ['เลขาธิการอาเซียน', 'ประธานอาเซียนปี 2026', 'รัฐมนตรีต่างประเทศกัมพูชา', 'ประธานคณะมนตรีความมั่นคงแห่งสหประชาชาติ'],
+    answer: 0,
+    explanationTh: 'เกา คิม ฮวนเป็นเลขาธิการอาเซียนตั้งแต่เดือนมกราคม 2023 และมีวาระ 5 ปีจนถึงปี 2027',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://theaseanmagazine.asean.org/files/media/2025/10/issue46-06-1.jpg',
+    imageAlt: 'ภาพชายสวมสูทยืนหน้าสัญลักษณ์และธงอาเซียน',
+    imageCredit: 'ภาพ: The ASEAN Magazine',
+    imageSourceUrl: 'https://theaseanmagazine.asean.org/article/secretary-general-of-asean-dr-kao-kim-hourn/',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/what-we-do/secretary-general-of-asean/'
+  },
+  {
+    id: 'people-003',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['เฟอร์ดินานด์ มาร์กอส จูเนียร์', 'ฮุน เซน', 'โฮเซ รามอส-ฮอร์ตา', 'ปราโบโว ซูเบียนโต'],
+    answer: 0,
+    explanationTh: 'เฟอร์ดินานด์ มาร์กอส จูเนียร์เป็นประธานาธิบดีฟิลิปปินส์ และทำหน้าที่ประธานอาเซียนในปี 2026',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ferdinand_R._Marcos_Jr.jpg/640px-Ferdinand_R._Marcos_Jr.jpg',
+    imageAlt: 'ภาพชายสวมเสื้อบารองยืนหน้าธงฟิลิปปินส์และตราประธานาธิบดี',
+    imageCredit: 'ภาพทางการจากรัฐบาลฟิลิปปินส์ · Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Ferdinand_R._Marcos_Jr.jpg',
+    factSourceName: 'ถ้อยแถลงการประชุมสุดยอดอาเซียน',
+    factSourceUrl: 'https://asean.org/chairs-statement-of-the-48th-asean-summit/'
+  },
+  {
+    id: 'people-004',
+    question: 'บุคคลในภาพดำรงตำแหน่งใดในฟิลิปปินส์?',
+    options: ['ประธานาธิบดีฟิลิปปินส์', 'นายกรัฐมนตรีฟิลิปปินส์', 'รัฐมนตรีต่างประเทศฟิลิปปินส์', 'ประธานวุฒิสภาฟิลิปปินส์'],
+    answer: 0,
+    explanationTh: 'มาร์กอสเป็นประธานาธิบดีฟิลิปปินส์ และในปี 2026 ยังเป็นผู้นำประเทศที่ทำหน้าที่ประธานอาเซียนด้วย',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ferdinand_R._Marcos_Jr.jpg/640px-Ferdinand_R._Marcos_Jr.jpg',
+    imageAlt: 'ภาพชายสวมเสื้อบารองยืนหน้าธงฟิลิปปินส์และตราประธานาธิบดี',
+    imageCredit: 'ภาพทางการจากรัฐบาลฟิลิปปินส์ · Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Ferdinand_R._Marcos_Jr.jpg',
+    factSourceName: 'ถ้อยแถลงการประชุมสุดยอดอาเซียน',
+    factSourceUrl: 'https://asean.org/chairs-statement-of-the-48th-asean-summit/'
+  },
+  {
+    id: 'people-005',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['อนุทิน ชาญวีรกูล', 'เศรษฐา ทวีสิน', 'แพทองธาร ชินวัตร', 'สีหศักดิ์ พวงเกตุแก้ว'],
+    answer: 0,
+    explanationTh: 'อนุทิน ชาญวีรกูลเป็นนายกรัฐมนตรีไทยตามทำเนียบคณะรัฐมนตรีของรัฐบาลไทย ณ วันที่ตรวจข้อมูล',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Anutin_Charnvirakul_2026-05-08_%282%29.jpg/330px-Anutin_Charnvirakul_2026-05-08_%282%29.jpg',
+    imageAlt: 'ภาพชายไทยสวมสูทในงานทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Anutin_Charnvirakul_2026-05-08_(2).jpg',
+    factSourceName: 'ทำเนียบรัฐบาลไทย',
+    factSourceUrl: 'https://www.thaigov.go.th/en/cabinet/prime-minister'
+  },
+  {
+    id: 'people-006',
+    question: 'ณ วันที่ 16 ตุลาคม 2026 บุคคลในภาพดำรงตำแหน่งใด?',
+    options: ['นายกรัฐมนตรีไทย', 'ประธานาธิบดีอินโดนีเซีย', 'นายกรัฐมนตรีกัมพูชา', 'เลขาธิการอาเซียน'],
+    answer: 0,
+    explanationTh: 'ทำเนียบรัฐบาลไทยระบุอนุทิน ชาญวีรกูลเป็นนายกรัฐมนตรี ข้อมูลตำแหน่งทางการเมืองอาจเปลี่ยนแปลงได้ตามเวลา',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Anutin_Charnvirakul_2026-05-08_%282%29.jpg/330px-Anutin_Charnvirakul_2026-05-08_%282%29.jpg',
+    imageAlt: 'ภาพชายไทยสวมสูทในงานทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Anutin_Charnvirakul_2026-05-08_(2).jpg',
+    factSourceName: 'ทำเนียบรัฐบาลไทย',
+    factSourceUrl: 'https://www.thaigov.go.th/en/cabinet/prime-minister'
+  },
+  {
+    id: 'people-007',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['ปราโบโว ซูเบียนโต', 'อันวาร์ อิบราฮิม', 'ฮุน มาเนต', 'ลอว์เรนซ์ หว่อง'],
+    answer: 0,
+    explanationTh: 'ปราโบโว ซูเบียนโตเป็นประธานาธิบดีอินโดนีเซียคนที่ 8 เข้ารับตำแหน่งในเดือนตุลาคม 2024',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Prabowo_Subianto_2024_official_portrait.jpg/330px-Prabowo_Subianto_2024_official_portrait.jpg',
+    imageAlt: 'ภาพชายสวมสูทและหมวก peci สีดำในภาพทางการ',
+    imageCredit: 'ภาพทางการ · Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Prabowo_Subianto_2024_official_portrait.jpg',
+    factSourceName: 'สำนักเลขาธิการอาเซียนประจำอินโดนีเซีย',
+    factSourceUrl: 'https://setnasasean.kemlu.go.id/profil-negara-anggota-asean/indonesia'
+  },
+  {
+    id: 'people-008',
+    question: 'บุคคลในภาพดำรงตำแหน่งใดในอินโดนีเซีย?',
+    options: ['ประธานาธิบดี', 'นายกรัฐมนตรี', 'รัฐมนตรีต่างประเทศ', 'ประธานสภาผู้แทนราษฎร'],
+    answer: 0,
+    explanationTh: 'อินโดนีเซียมีระบบประธานาธิบดี และปราโบโว ซูเบียนโตเป็นประมุขแห่งรัฐในตำแหน่งประธานาธิบดี',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Prabowo_Subianto_2024_official_portrait.jpg/330px-Prabowo_Subianto_2024_official_portrait.jpg',
+    imageAlt: 'ภาพชายสวมสูทและหมวก peci สีดำในภาพทางการ',
+    imageCredit: 'ภาพทางการ · Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Prabowo_Subianto_2024_official_portrait.jpg',
+    factSourceName: 'สำนักเลขาธิการอาเซียนประจำอินโดนีเซีย',
+    factSourceUrl: 'https://setnasasean.kemlu.go.id/profil-negara-anggota-asean/indonesia'
+  },
+  {
+    id: 'people-009',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['ลอว์เรนซ์ หว่อง', 'ลี เซียนลุง', 'แกน คิม ยง', 'อันวาร์ อิบราฮิม'],
+    answer: 0,
+    explanationTh: 'ลอว์เรนซ์ หว่องเป็นนายกรัฐมนตรีคนที่ 4 ของสิงคโปร์และดำรงตำแหน่งรัฐมนตรีว่าการกระทรวงการคลังด้วย',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lawrence_Wong_20260302.jpg/330px-Lawrence_Wong_20260302.jpg',
+    imageAlt: 'ภาพชายสิงคโปร์สวมสูทในภาพบุคคลทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Lawrence_Wong_20260302.jpg',
+    factSourceName: 'สำนักนายกรัฐมนตรีสิงคโปร์',
+    factSourceUrl: 'https://www.pmo.gov.sg/about-us/the-cabinet/mr-lawrence-wong/'
+  },
+  {
+    id: 'people-010',
+    question: 'บุคคลในภาพดำรงตำแหน่งใดในสิงคโปร์?',
+    options: ['นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง', 'ประธานาธิบดีและรัฐมนตรีกลาโหม', 'รัฐมนตรีต่างประเทศและรองนายกรัฐมนตรี', 'เลขาธิการอาเซียน'],
+    answer: 0,
+    explanationTh: 'ข้อมูลจากสำนักนายกรัฐมนตรีสิงคโปร์ระบุว่าลอว์เรนซ์ หว่องเป็นนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lawrence_Wong_20260302.jpg/330px-Lawrence_Wong_20260302.jpg',
+    imageAlt: 'ภาพชายสิงคโปร์สวมสูทในภาพบุคคลทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Lawrence_Wong_20260302.jpg',
+    factSourceName: 'สำนักนายกรัฐมนตรีสิงคโปร์',
+    factSourceUrl: 'https://www.pmo.gov.sg/about-us/the-cabinet/mr-lawrence-wong/'
+  },
+  {
+    id: 'people-011',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['อันวาร์ อิบราฮิม', 'ปราโบโว ซูเบียนโต', 'ฮุน มาเนต', 'เฟอร์ดินานด์ มาร์กอส จูเนียร์'],
+    answer: 0,
+    explanationTh: 'อันวาร์ อิบราฮิมเป็นนายกรัฐมนตรีมาเลเซียคนที่ 10 เข้ารับตำแหน่งเมื่อวันที่ 24 พฤศจิกายน 2022',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Anwar_Ibrahim_in_June_2026.jpg/330px-Anwar_Ibrahim_in_June_2026.jpg',
+    imageAlt: 'ภาพชายมาเลเซียสวมชุดทางการในงานสาธารณะ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Anwar_Ibrahim_in_June_2026.jpg',
+    factSourceName: 'สำนักนายกรัฐมนตรีมาเลเซีย',
+    factSourceUrl: 'https://www.pmo.gov.my/en/profile-pm/'
+  },
+  {
+    id: 'people-012',
+    question: 'บุคคลในภาพดำรงตำแหน่งใดในมาเลเซีย?',
+    options: ['นายกรัฐมนตรี', 'ประธานาธิบดี', 'สมเด็จพระราชาธิบดี', 'รัฐมนตรีต่างประเทศ'],
+    answer: 0,
+    explanationTh: 'อันวาร์ อิบราฮิมเป็นนายกรัฐมนตรีมาเลเซีย และเอกสารรัฐบาลมาเลเซียระบุว่ายังดำรงตำแหน่งนี้ในปี 2026',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Anwar_Ibrahim_in_June_2026.jpg/330px-Anwar_Ibrahim_in_June_2026.jpg',
+    imageAlt: 'ภาพชายมาเลเซียสวมชุดทางการในงานสาธารณะ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Anwar_Ibrahim_in_June_2026.jpg',
+    factSourceName: 'สำนักนายกรัฐมนตรีมาเลเซีย',
+    factSourceUrl: 'https://www.pmo.gov.my/en/profile-pm/'
+  },
+  {
+    id: 'people-013',
+    question: 'บุคคลในภาพคือใคร?',
+    options: ['ฮุน มาเนต', 'ฮุน เซน', 'ซานาเอะ ทาคาอิจิ', 'อนุทิน ชาญวีรกูล'],
+    answer: 0,
+    explanationTh: 'ฮุน มาเนตเป็นนายกรัฐมนตรีกัมพูชาตั้งแต่ปี 2023 และยังดำรงตำแหน่งในปี 2026 ตามข่าวของอาเซียน',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hun_Manet_on_May_30%2C_2025_%28cropped_2%29.jpg/330px-Hun_Manet_on_May_30%2C_2025_%28cropped_2%29.jpg',
+    imageAlt: 'ภาพชายกัมพูชาสวมสูทสีน้ำเงินในงานทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Hun_Manet_on_May_30,_2025_(cropped_2).jpg',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/secretary-general-of-asean-pays-a-courtesy-call-on-the-prime-minister-of-the-kingdom-of-cambodia/'
+  },
+  {
+    id: 'people-014',
+    question: 'บุคคลในภาพดำรงตำแหน่งใดในกัมพูชา?',
+    options: ['นายกรัฐมนตรี', 'ประธานวุฒิสภา', 'กษัตริย์', 'รัฐมนตรีต่างประเทศ'],
+    answer: 0,
+    explanationTh: 'ฮุน มาเนตเป็นนายกรัฐมนตรีกัมพูชาตั้งแต่เดือนสิงหาคม 2023 ต่อจากฮุน เซน',
+    source: 'บุคคลสำคัญอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hun_Manet_on_May_30%2C_2025_%28cropped_2%29.jpg/330px-Hun_Manet_on_May_30%2C_2025_%28cropped_2%29.jpg',
+    imageAlt: 'ภาพชายกัมพูชาสวมสูทสีน้ำเงินในงานทางการ',
+    imageCredit: 'ภาพจาก Wikimedia Commons',
+    imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Hun_Manet_on_May_30,_2025_(cropped_2).jpg',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/secretary-general-of-asean-pays-a-courtesy-call-on-the-prime-minister-of-the-kingdom-of-cambodia/'
+  },
+  {
+    id: 'people-015',
+    question: 'ใครเป็นประธานการประชุมสุดยอดอาเซียนครั้งที่ 48 ที่เมืองเซบู เมื่อวันที่ 8 พฤษภาคม 2026?',
+    options: ['เฟอร์ดินานด์ มาร์กอส จูเนียร์', 'ปราโบโว ซูเบียนโต', 'อันวาร์ อิบราฮิม', 'ลอว์เรนซ์ หว่อง'],
+    answer: 0,
+    explanationTh: 'ถ้อยแถลงประธานการประชุมระบุว่าการประชุมสุดยอดอาเซียนครั้งที่ 48 ที่เซบูอยู่ภายใต้การนำของประธานาธิบดีเฟอร์ดินานด์ มาร์กอส จูเนียร์',
+    source: 'เหตุการณ์และบทบาทอาเซียน · 2026',
+    factSourceName: 'ถ้อยแถลงประธานการประชุมสุดยอดอาเซียนครั้งที่ 48',
+    factSourceUrl: 'https://asean.org/chairs-statement-of-the-48th-asean-summit/'
+  },
+  {
+    id: 'people-016',
+    question: 'ใครเป็นเลขาธิการอาเซียนที่สรุปผลการประชุมรัฐมนตรีต่างประเทศอาเซียนครั้งที่ 59 ในเดือนกรกฎาคม 2026?',
+    options: ['ดร. เกา คิม ฮวน', 'อันวาร์ อิบราฮิม', 'ลอว์เรนซ์ หว่อง', 'ฮุน มาเนต'],
+    answer: 0,
+    explanationTh: 'สำนักเลขาธิการอาเซียนรายงานว่า ดร. เกา คิม ฮวนสรุปผลการประชุมรัฐมนตรีต่างประเทศและการประชุมที่เกี่ยวข้อง ซึ่งจัดในกรุงมะนิลาเดือนกรกฎาคม 2026',
+    source: 'เหตุการณ์และบทบาทอาเซียน · 2026',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/secretary-general-of-asean-briefs-the-diplomatic-corps-and-the-media-on-key-outcomes-of-the-59th-asean-foreign-ministers-meeting-and-related-meetings-in-manila/'
+  },
+  {
+    id: 'people-017',
+    question: 'การประชุมผู้นำสิงคโปร์–อินโดนีเซียที่จาการ์ตาในเดือนกรกฎาคม 2026 จัดโดยผู้นำคนใด?',
+    options: ['ประธานาธิบดีปราโบโว ซูเบียนโต', 'นายกรัฐมนตรีลอว์เรนซ์ หว่อง', 'นายกรัฐมนตรีอันวาร์ อิบราฮิม', 'ประธานาธิบดีเฟอร์ดินานด์ มาร์กอส จูเนียร์'],
+    answer: 0,
+    explanationTh: 'สำนักนายกรัฐมนตรีสิงคโปร์ระบุว่าปราโบโว ซูเบียนโตเป็นเจ้าภาพการหารือผู้นำประจำปีระหว่างสิงคโปร์กับอินโดนีเซียที่กรุงจาการ์ตา',
+    source: 'เหตุการณ์และบทบาทอาเซียน · 2026',
+    factSourceName: 'สำนักนายกรัฐมนตรีสิงคโปร์',
+    factSourceUrl: 'https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-jakarta-indonesia-jul-2026/'
+  },
+  {
+    id: 'people-018',
+    question: 'นายกรัฐมนตรีมาเลเซียคนใดมีบทบาทผลักดันให้ไทยและกัมพูชาหยุดยิงในฐานะประธานอาเซียนปี 2025?',
+    options: ['อันวาร์ อิบราฮิม', 'ฮุน มาเนต', 'อนุทิน ชาญวีรกูล', 'เฟอร์ดินานด์ มาร์กอส จูเนียร์'],
+    answer: 0,
+    explanationTh: 'ถ้อยแถลงอาเซียนระบุว่าอันวาร์ อิบราฮิม ในฐานะประธานอาเซียนปี 2025 สนับสนุนการเจรจาให้ไทยและกัมพูชายุติการสู้รบ',
+    source: 'เหตุการณ์และบทบาทอาเซียน · 2025',
+    factSourceName: 'ถ้อยแถลงรัฐมนตรีต่างประเทศอาเซียน',
+    factSourceUrl: 'https://asean.org/wp-content/uploads/2025/12/CHAIRS-STATEMENT-ON-THE-SPECIAL-ASEAN-FOREIGN-MINISTERS-MEETING-22-DECEMBER-2025.pdf'
+  },
+  {
+    id: 'people-019',
+    question: 'ใครขึ้นเป็นนายกรัฐมนตรีกัมพูชาต่อจากฮุน เซนในเดือนสิงหาคม 2023?',
+    options: ['ฮุน มาเนต', 'ปราโบโว ซูเบียนโต', 'สมเด็จฯ ฮุน เซน', 'เกา คิม ฮวน'],
+    answer: 0,
+    explanationTh: 'ฮุน มาเนตรับตำแหน่งนายกรัฐมนตรีต่อจากบิดาคือฮุน เซนในเดือนสิงหาคม 2023',
+    source: 'เหตุการณ์และบทบาทอาเซียน · 2023',
+    factSourceName: 'สำนักเลขาธิการอาเซียน',
+    factSourceUrl: 'https://asean.org/secretary-general-of-asean-pays-a-courtesy-call-on-the-prime-minister-of-the-kingdom-of-cambodia/'
+  },
+  {
+    id: 'people-020',
+    question: 'ผู้นำรัฐบาลติมอร์-เลสเตคนใดมีหน้าที่กำหนดนโยบายการเข้าร่วมอาเซียน?',
+    options: ['ไค ราลา ซานานา กุสเมา', 'โฮเซ รามอส-ฮอร์ตา', 'เบนดิโต ดอส ซานโตส เฟรตัส', 'เกา คิม ฮวน'],
+    answer: 0,
+    explanationTh: 'เว็บไซต์รัฐบาลติมอร์-เลสเตระบุว่าซานานา กุสเมาเป็นนายกรัฐมนตรี และรับผิดชอบกำหนดนโยบายการเข้าร่วมอาเซียนของรัฐบาล',
+    source: 'เหตุการณ์และบทบาทอาเซียน · ข้อมูล 16 ต.ค. 2026',
+    factSourceName: 'รัฐบาลติมอร์-เลสเต',
+    factSourceUrl: 'https://timor-leste.gov.tl/?lang=en&p=13'
+  }
+);
+
+// Spread correct answers across all four choices for the new question set.
+window.QUESTION_BANK.slice(-20).forEach((question, index) => {
+  const correctChoice = question.options[question.answer];
+  const target = index % question.options.length;
+  question.options.splice(question.answer, 1);
+  question.options.splice(target, 0, correctChoice);
+  question.answer = target;
+});

@@ -85,6 +85,71 @@ input:focus-visible {
   line-height: 1.65;
 }
 
+.question-image {
+  margin: -6px 0 20px;
+}
+
+.person-photo {
+  width: min(100%, 430px);
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f7faf8;
+}
+
+.person-photo img {
+  display: block;
+  width: 100%;
+  max-height: 410px;
+  object-fit: contain;
+  background: #eaf0ed;
+}
+
+.person-photo figcaption {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  padding: 8px 11px;
+  color: #6c7f84;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.person-photo figcaption a,
+.question-fact-source a,
+.review-fact-source a {
+  color: var(--teal-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.image-fallback {
+  padding: 32px 16px;
+  color: #607580;
+  font-size: 13px;
+  text-align: center;
+}
+
+.question-fact-source {
+  margin: -8px 0 15px;
+  font-size: 11px;
+}
+
+.review-item .person-photo {
+  margin: 2px 0 14px;
+}
+
+.review-item .person-photo img {
+  max-height: 300px;
+}
+
+.review-fact-source {
+  margin: -4px 0 13px;
+  font-size: 11px;
+}
+
 .navigator-panel {
   position: sticky;
   top: 16px;
